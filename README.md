@@ -4,8 +4,9 @@ Bot simples para automatizar o envio de mensagens via Whatsapp.
 
 ## Tecnologias utilizadas
 
-- Javascript
-- Node
-- Openai
-- Whatsapp Web Js
-- QR Code terminal
+- **Linguagemm:** Javascript
+- **Interpretador:** Node
+- **API:** Openai e Gemini
+- **Conexão ao Whatsapp:** Whatsapp Web Js
+- **QRCode:** QR Code terminal
+- **Deploy:** Render
