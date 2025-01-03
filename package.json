@@ -4,7 +4,7 @@
     "description": "Bot simples ",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
+      "start": "node index.js --port=3000",
       "dev": "node --watch ./index.js",
       "build": "npm i",
       "server": "node --env-file=.env --watch ./server.js"

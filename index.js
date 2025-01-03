@@ -22,14 +22,16 @@ client.on("ready", () => {
 client.on("", () => {});
 
 client.on("message", (message) => {
-  console.log(message.body);
+  const automaticResponses = {
+    epic_status: "https://status.epicgames.com/",
+    minecraft_status: "https://x.com/mojangstatus?mx=2",
+    xclouding: "https://www.xbox.com/pt-BR/play",
+    canvas: "https://www.canva.com/pt_br/",
+    oi: "tudo bem?",
+  };
 
-  if (message.body === "!ping") {
-    delaySendMessage(message, "pong");
-  }
-
-  if (message.body === "OI") {
-    delaySendMessage(message, "Te amo");
+  if (automaticResponses[message.body]) {
+    delaySendMessage(message, `[Bot]: ${automaticResponses[message.body]}`);
   }
 });
 
