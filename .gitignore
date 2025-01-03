@@ -1,8 +1,12 @@
+# Configuration
 .vscode
 
+# Secrets
 .env
 
+# Dependency
 node_modules
 
-session.js
+# Cache
 auth_cache
+.wwebjs_cache
