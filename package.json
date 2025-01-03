@@ -4,8 +4,10 @@
     "description": "Bot simples ",
     "main": "index.js",
     "scripts": {
-      "bot": "node --watch ./index.js",
-      "dev": "node --env-file=.env --watch ./server.js"
+      "start": "node index.js",
+      "dev": "node --watch ./index.js",
+      "build": "npm i",
+      "server": "node --env-file=.env --watch ./server.js"
     },
     "keywords": [],
     "author": "",
